@@ -6,17 +6,17 @@
 ### Interested in this Data?
 <addr> The data used for this graph can be found here: 
 
-[Data page](https://github.com/jdorfman/awesome-json-datasets)
+[awesome json datasets](https://github.com/jdorfman/awesome-json-datasets)
 
 ## India
 ![India's populations](india_pop.png)
-<addr> This graph illustrates the total population in India since 1960s to 2019. India has seemed to have a steady increase (almost linear) over this time period.
+<addr> This graph illustrates the total population in India since 1960s to 2019.Data for 2020 has not been collected at this point. However, India has seemed to have a steady increase (almost linear) over this time period. 
 
 ### Interested in this Data?
-<addr> The data used for this graph can be found here: 
+<addr> The data used for this graph can be found here:
 
-[Data page](https://github.com/jdorfman/awesome-json-datasets)
+[awesome json datasets](https://github.com/jdorfman/awesome-json-datasets)
 
 Check out this Github page for more information about csci40's homework 2 project: 
 
-[Hw2 page](https://github.com/mikeizbicki/cmc-csci040/tree/2020fall/hw_02)
+[Homework2 page](https://github.com/mikeizbicki/cmc-csci040/tree/2020fall/hw_02)
