@@ -1,7 +1,6 @@
 import json
 import matplotlib.pyplot as plt
 import pandas as pd
-plt.style.use['ggplot']
 with open('senator.json') as f:
     senator_data = json.load(f)
 
