@@ -1,27 +1,34 @@
 import json
 import matplotlib.pyplot as plt
-
+import pandas as pd
+plt.style.use['ggplot']
 with open('senator.json') as f:
     senator_data = json.load(f)
 
 #total for each party
-party_data = {}
+tr = 0
+td =0
+ti =0 
+totals= []
 for objects in senator_data['objects']:
-    #party = objects['party'] 
-    if objects['party'] not in party_data:
-        party_data[objects['party']] = 0
-    if objects['party'] in party_data:
-        party_data[objects['party']] +=1
-    #print(objects['party'])
-print(party_data)
+    if objects['party'] == 'Republican': 
+        tr +=1
+    if objects['party'] == 'Democrat': 
+        td +=1
+    if objects['party'] == 'Independent': 
+        ti +=1
+    else:
+        continue
+print(tr,td,ti)
+totals.append(tr)
+totals.append(td)
+totals.append(ti)
+print(totals)
 
-
-#print(senator_data['objects'][])
-fr_count = 0
-fi_count = 0
-fd_count = 0
-counts =[]
-
+counts=[]
+fr_count=0
+fd_count=0
+fi_count =0
 #female count 
 for objects in senator_data['objects']:
     if objects['party'] == 'Republican': 
@@ -39,6 +46,7 @@ counts.append(fr_count)
 counts.append(fd_count)
 counts.append(fi_count)
 print(counts)
+
 
 #male count
 mr_count = 0
@@ -64,23 +72,15 @@ m_counts.append(md_count)
 m_counts.append(mi_count)
 print(m_counts)
 
-fig, ax = plt.subplots() 
-"""
-ax.set(
-    xlabel='Party Association', 
-    ylabel= 'Number of Senators'
-    )
-"""
-#name axes
-x = party_data.keys()
-z = m_counts
-y = party_data.values()
-plt.xlabel('Party Association')
-plt.ylabel('Number of Senators' )
-#title plot
+women = counts
+men = m_counts
+total = totals
+index = ['Republican', 'Democrat', 'Independent']
+df =pd.DataFrame({'Total count':total,'Men': men,'Women': women}, index=index)
+ax= df.plot.bar(rot=0)
 plt.title('Senators by Party')
-#Adding a Legend
-plt.axes()
-plt.bar('z', 'y')
+plt.ylabel('Number of Senators')
+plt.xlabel('Party Associaton')
 plt.show()
-#print(plt.style.available) 
+
+
