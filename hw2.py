@@ -20,17 +20,18 @@ for i in pop_data[1]:
             pstart.append(i[x])
         if x == 'date' and i[x] != '2020':
             print(i[x])
-            ystart.append(i[x])
+            ystart.append(int(i[x]))
 #print(years,pop)
-years = list(reversed(ystart))
+years = list(reversed((ystart)))
 pop = list(reversed(pstart))
 
 #name axes
-plt.xlabel('Years(in Billions)')
-plt.ylabel('Population' )
+plt.ylabel('Population (in Billions)')
+plt.xlabel('Years' )
 #title plot 
 plt.title("India's Population from 1960-2019")
-plt.plot(pop,years,linewidth=3)
+plt.plot(years,pop)
+plt.tight_layout()
 plt.show()
 
 
