@@ -15,4 +15,4 @@
 
 ### More Information: 
 
-Check out this Github page for more information about csci40's homework 2 project:   [Csci040's Homework 2](https://github.com/mikeizbicki/cmc-csci040/tree/2020fall/hw_02)
+Check out this Github page for more information about csci40's homework 2 project:   [CMC-csci040's Homework 2](https://github.com/mikeizbicki/cmc-csci040/tree/2020fall/hw_02)
