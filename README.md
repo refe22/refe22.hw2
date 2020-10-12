@@ -6,7 +6,7 @@
 ### Interested in this Data?
 <addr> The data used for this graph can be found here: 
 
-[awesome json datasets](https://github.com/jdorfman/awesome-json-datasets)
+[Awesome Json Datasets](https://github.com/jdorfman/awesome-json-datasets)
 
 ## India
 ![India's populations](india_pop.png)
@@ -15,8 +15,10 @@
 ### Interested in this Data?
 <addr> The data used for this graph can be found here:
 
-[awesome json datasets](https://github.com/jdorfman/awesome-json-datasets)
+[Awesome Json Datasets](https://github.com/jdorfman/awesome-json-datasets)
+
+### More Information: 
 
 Check out this Github page for more information about csci40's homework 2 project: 
 
-[Homework2 page](https://github.com/mikeizbicki/cmc-csci040/tree/2020fall/hw_02)
+[csci040's Homework 2](https://github.com/mikeizbicki/cmc-csci040/tree/2020fall/hw_02)
