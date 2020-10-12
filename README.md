@@ -1,7 +1,7 @@
 # Homework 2 Project
 ## United States Government
 ![Senators](senators.png)
-<addr> This graph illustrates the partisan breakdown of our Senate. Currently, the majority of our Senators are Republican and only two members of the Senate are Independent. If we analyze the data by gender, we find that there is a siginificant difference between how many women are in the senate per party. The Democratic party has the highest female representation in the Senate and the Indepedent party has the least </addr>
+<addr> This graph illustrates the partisan breakdown of our Senate. Currently, the majority of our Senators are Republican and only two members of the Senate are Independent. If we analyze the data by gender, we find that there is a siginificant difference between how many female and male Senators are in each party. The Democratic party has the highest female representation in the Senate and the Indepedent party has the least </addr>
 
 ## India
 ![India's populations](india_pop.png)
