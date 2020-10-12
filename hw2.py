@@ -1,9 +1,6 @@
 import json
 import matplotlib.pyplot as plt
 
-with open('india_gdp.json') as f:
-    gdp_data = json.load(f)
-
 with open('india_pop.json') as f:
     pop_data = json.load(f)
 #print(pop_data[1])
